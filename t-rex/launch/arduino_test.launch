@@ -1,0 +1,19 @@
+<launch>
+
+<!-- Launch brain_node -->
+    
+    <node name="UNO_R4" pkg="rosserial_arduino" type="serial_node.py" output="screen">
+        <!-- Specify the serial port and baud rate -->
+        <param name="port" value="/dev/ttyACM1"/>
+        <param name="baud" value="56700"/>
+    </node>
+    
+    <node  name="UNO" pkg="rosserial_arduino" type="serial_node.py" output="screen" >
+    <!-- Specify the serial port and baud rate -->
+        <param name="port" value="/dev/ttyACM0"/>
+        <param name="baud" value="56700"/>
+    </node>
+    
+   
+ 
+</launch>
