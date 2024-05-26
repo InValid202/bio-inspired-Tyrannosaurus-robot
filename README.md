@@ -33,6 +33,8 @@ Excel for represent CPG and VRNs: [https://docs.google.com/spreadsheets/d/1AZzXm
 
 <img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/idea%20system%20overview.jpg" width="800" height="400" />
 
+After trying to use this system diagram as the core concept for programming, I found that rosserial on the Arduino UNO R4 couldn't handle a message from the ROS CPG node. So, I integrated the following nodes together in the Arduino UNO R4 and ended up with this diagram:
+
 <img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/idea%20system%20overview_real.jpg" width="800" height="400" />
 
 
