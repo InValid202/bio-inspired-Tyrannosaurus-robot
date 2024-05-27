@@ -111,3 +111,15 @@ the constant 𝑘 first.
 
 
 ## Group member
+
+6452500368 Tumpoom Kanta-in
+
+6452500171 Natthachai piyatarathibeth 
+
+6452500333 Paradon chaiyasat
+
+6452500406 Terdsak Kanjanawerod
+
+6452500414 Precha Chuwong
+
+6452500091 Mr.Panchapol Supankhan
