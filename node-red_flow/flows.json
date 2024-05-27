@@ -1,0 +1,294 @@
+[
+    {
+        "id": "669f56b17e699fc5",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "74f9298fdcbb93e4",
+        "type": "ui_gauge",
+        "z": "669f56b17e699fc5",
+        "name": "",
+        "group": "3dae2b7dce619ab3",
+        "order": 2,
+        "width": 5,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Sleep hormone",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 560,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a35f5fa892d32784",
+        "type": "mqtt in",
+        "z": "669f56b17e699fc5",
+        "name": "",
+        "topic": "sleep_hormone",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ca99cc075cdd417f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "74f9298fdcbb93e4"
+            ]
+        ]
+    },
+    {
+        "id": "34ba71633c560f02",
+        "type": "ui_gauge",
+        "z": "669f56b17e699fc5",
+        "name": "",
+        "group": "3dae2b7dce619ab3",
+        "order": 1,
+        "width": 5,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Satiety hormone",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 560,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ad46b9d6c61e0514",
+        "type": "ui_gauge",
+        "z": "669f56b17e699fc5",
+        "name": "",
+        "group": "3dae2b7dce619ab3",
+        "order": 3,
+        "width": 5,
+        "height": 6,
+        "gtype": "wave",
+        "title": "Death hormone",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 560,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "0652ba158d7b66db",
+        "type": "mqtt in",
+        "z": "669f56b17e699fc5",
+        "name": "",
+        "topic": "satiety_hormone",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ca99cc075cdd417f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 320,
+        "wires": [
+            [
+                "34ba71633c560f02"
+            ]
+        ]
+    },
+    {
+        "id": "fa96a92c812e0bf6",
+        "type": "mqtt in",
+        "z": "669f56b17e699fc5",
+        "name": "",
+        "topic": "death_hormone",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ca99cc075cdd417f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 440,
+        "wires": [
+            [
+                "ad46b9d6c61e0514"
+            ]
+        ]
+    },
+    {
+        "id": "5548e49879b0d2a0",
+        "type": "mqtt in",
+        "z": "669f56b17e699fc5",
+        "name": "sleep_bar",
+        "topic": "sleep_bar",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ca99cc075cdd417f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 560,
+        "wires": [
+            [
+                "d8611251c7df6631"
+            ]
+        ]
+    },
+    {
+        "id": "fdde1dc768f30c76",
+        "type": "mqtt in",
+        "z": "669f56b17e699fc5",
+        "name": "death_bar",
+        "topic": "death_bar",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ca99cc075cdd417f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 640,
+        "wires": [
+            [
+                "a071d4c7a2827b93"
+            ]
+        ]
+    },
+    {
+        "id": "d8611251c7df6631",
+        "type": "ui_gauge",
+        "z": "669f56b17e699fc5",
+        "name": "Sleep bar",
+        "group": "3dae2b7dce619ab3",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Sleep bar",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 560,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "a071d4c7a2827b93",
+        "type": "ui_gauge",
+        "z": "669f56b17e699fc5",
+        "name": "Death bar",
+        "group": "3dae2b7dce619ab3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Death bar",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 560,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3dae2b7dce619ab3",
+        "type": "ui_group",
+        "name": "",
+        "tab": "a4bc915ee88f4c7d",
+        "order": 1,
+        "disp": true,
+        "width": 15,
+        "collapse": false
+    },
+    {
+        "id": "ca99cc075cdd417f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt-dashboard.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a4bc915ee88f4c7d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
