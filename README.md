@@ -177,16 +177,16 @@ step 10: import flows.json that located in node-red_flow folder to Node-RED
 
 step 11: click deploy and use ctrl+shift+d to open dash board
 
-step : use this command to start ros master
+step 12: use this command to start ros master
 
          roscore
 
-step : start both rosserial for both arduino
+step 13: start both rosserial for both arduino
 
          rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM0 _baud:=57600
          rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM1 _baud:=57600
 
-step : launch hormones nodes with this command
+step 14: launch hormones nodes with this command
 
          roslaunch t-rex hormone.launch
 
