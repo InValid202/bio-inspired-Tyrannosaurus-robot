@@ -31,6 +31,9 @@ spreadsheets for represent CPG and VRNs: [https://docs.google.com/spreadsheets/d
 
 ### Hormone
 
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/hormone_concept.png" width="800" height="400" />
+
+addition paper: [FIBO205_240514_210108.pdf](https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/files/15449666/FIBO205_240514_210108.pdf)
 
 ### System diagram
 
