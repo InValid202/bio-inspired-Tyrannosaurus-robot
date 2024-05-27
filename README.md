@@ -114,9 +114,39 @@ the constant 𝑘 first.
 
 ## installation
 
-### Requirement:
+### Hardware:
 
-#### software:
+#### Requirement:
+
+1. Arduino Uno R4 WiFi
+
+2. Arduino Uno R3 
+
+3. Feetech SCS SERVO CONTROLLER
+
+4. Jetson nano
+
+5. Servo scs15
+
+6. pixy2.1
+   
+7. ZX-02F Light sensor
+
+8. PowerBank 5 V 2A
+
+9. LiPO Battery 3000mAh
+
+10. Rocker switch ON-OFF
+
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit1.jpg"/>
+
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit2.jpg"/>
+
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit3.jpg"/>
+
+### software:
+
+#### Requirement:
 
 1. Ubuntu 20.04
 2. ROS noetic
@@ -167,34 +197,6 @@ step 13: start both rosserial for both arduino
 step 14: launch hormones nodes with this command
 
          roslaunch t-rex hormone.launch
-
-#### Hardware:
-
-1. Arduino Uno R4 WiFi
-
-2. Arduino Uno R3 
-
-3. Feetech SCS SERVO CONTROLLER
-
-4. Jetson nano
-
-5. Servo scs15
-
-6. pixy2.1
-   
-7. ZX-02F Light sensor
-
-8. PowerBank 5 V 2A
-
-9. LiPO Battery 3000mAh
-
-10. Rocker switch ON-OFF
-
-<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit1.jpg"/>
-
-<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit2.jpg"/>
-
-<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit3.jpg"/>
 
 ## Group member
 
