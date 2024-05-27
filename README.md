@@ -169,16 +169,24 @@ step 8: go in to rosserial_arduino package in rosserial that you just clone from
 
          rospy.init_node("serial_node") --> rospy.init_node("serial_node", anonymous=True)
 
-step 9: use this command to start ros master
+step 9: launch node-red with this command 
+
+         node-red
+
+step 10: import flows.json that located in node-red_flow folder to Node-RED
+
+step 11: click deploy and use ctrl+shift+d to open dash board
+
+step : use this command to start ros master
 
          roscore
 
-step 10: start both rosserial for both arduino
+step : start both rosserial for both arduino
 
          rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM0 _baud:=57600
          rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM1 _baud:=57600
 
-step 11: launch hormones nodes with this command
+step : launch hormones nodes with this command
 
          roslaunch t-rex hormone.launch
 
