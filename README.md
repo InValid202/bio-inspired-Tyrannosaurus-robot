@@ -76,6 +76,36 @@ Thus, the equation becomes:
 
 When 𝑘 = 𝑆 * 𝑑
 
+#### Summary of the Equation
+
+𝐷 = (𝑆 * 𝑑) / 𝑑 = 𝑆
+
+If you know the actual size of the object and the size in the image, you can find the
+distance:
+
+𝑑 = 𝑘 / 𝐷
+
+If the constant 𝑘k is not known, you need to know the size of the object in the image
+for a given distance or know the focal length of the camera to establish this relationship.
+
+#### Example Usage
+
+Suppose you know the actual size of the object 𝑆=40 mm. and the size of the object in
+the image 𝐷 :
+
+If you know that the size of the object in the image at a distance 𝑑 = 10 cm. is 𝐷 = 100
+mm. :
+
+1. Find the constant 𝑘 :
+𝑘 = 𝐷 * 𝑑 = 100 * 10 = 1000
+2. Use the general equation:
+𝐷 = 1000 * 𝑑
+3. If the size of the object in the image 𝐷D is 50 mm and you want to find 𝑑d :
+𝑑 = 1000 / 50 = 20 cm.
+
+This equation can be used when you know the actual size of the object and have
+information about the size of the object in the image or the distance in one case to find
+the constant 𝑘 first.
 
 ## installation
 
