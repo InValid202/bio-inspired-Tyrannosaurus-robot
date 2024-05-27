@@ -1,5 +1,5 @@
 # Bio-inspired-Tyrannosaurus-robot
-Project for RE60429
+Dinosaur project for RE60429
 ## Feature
 ### Robot
 
@@ -113,6 +113,18 @@ information about the size of the object in the image or the distance in one cas
 the constant 𝑘 first.
 
 ## installation
+
+### Requirement:
+
+#### software:
+
+1. Ubuntu 20.04
+2. ROS noetic
+3. Arduino IDE
+   
+   library:
+     1. Pixy2 library (from https://pixycam.com/downloads-pixy2/)
+     2. 
 
 
 ## Group member
