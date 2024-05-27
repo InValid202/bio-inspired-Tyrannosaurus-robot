@@ -190,11 +190,11 @@ step 14: launch hormones nodes with this command
 
 10. Rocker switch ON-OFF
 
-<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit1.jpg" width="800" height="400" />
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit1.jpg"/>
 
-<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit2.jpg" width="800" height="400" />
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit2.jpg"/>
 
-<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit3.jpg" width="800" height="400" />
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit3.jpg"/>
 
 ## Group member
 
