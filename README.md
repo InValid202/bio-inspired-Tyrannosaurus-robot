@@ -121,11 +121,6 @@ the constant 𝑘 first.
 1. Ubuntu 20.04
 2. ROS noetic
 3. Arduino IDE
-   
-   library:
-     1. Pixy2 library 
-     2. Rosserial_Arduino_Library
-     3. SCServo-master
 
 #### Hardware:
 
@@ -147,8 +142,23 @@ the constant 𝑘 first.
 
 9. LiPO Battery 3000mAh
 
-10.Rocker switch ON-OFF
+10. Rocker switch ON-OFF
 
+step 1: go to src in your catkin_ws with terminal and run this command in terminal
+
+         git clone https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot.git
+
+step 2: copy both SCServo-master and Pixy2 library file and paste them in libraries folder of Arduino folder
+
+step 3: add the lastest version of Rosserial_Arduino_Library with arduino IDE, follow by this guide: https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE
+
+step 4: go to src in your catkin_ws with terminal and run this command in terminal to clone rosserial package for ros
+
+         https://github.com/ros-drivers/rosserial.git
+
+step 5: go back to catkin_ws with terminal and run this command to make package
+
+         catkin_make
 
 ## Group member
 
