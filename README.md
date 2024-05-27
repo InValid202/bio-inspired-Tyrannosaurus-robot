@@ -204,14 +204,16 @@ step 14: launch hormones nodes with this command
 
 ## Group member
 
-Tumpoom Kanta-in 6452500368 
+Panchapol Supankhan 6452500091 
 
 Natthachai piyatarathibeth 6452500171 
 
 Paradon chaiyasat 6452500333 
 
+Tumpoom Kanta-in 6452500368 
+
 Terdsak Kanjanawerod 6452500406 
 
 Precha Chuwong 6452500414 
 
-Panchapol Supankhan 6452500091 
+
