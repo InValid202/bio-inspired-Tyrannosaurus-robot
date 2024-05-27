@@ -123,8 +123,31 @@ the constant 𝑘 first.
 3. Arduino IDE
    
    library:
-     1. Pixy2 library (from https://pixycam.com/downloads-pixy2/)
-     2. 
+     1. Pixy2 library 
+     2. Rosserial_Arduino_Library
+     3. SCServo-master
+
+#### Hardware:
+
+1. Arduino Uno R4 WiFi
+
+2. Arduino Uno R3 
+
+3. Feetech SCS SERVO CONTROLLER
+
+4. Jetson nano
+
+5. Servo scs15
+
+6. pixy2.1
+   
+7. ZX-02F Light sensor
+
+8. PowerBank 5 V 2A
+
+9. LiPO Battery 3000mAh
+
+10.Rocker switch ON-OFF
 
 
 ## Group member
