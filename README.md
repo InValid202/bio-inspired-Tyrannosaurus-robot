@@ -121,6 +121,7 @@ the constant 𝑘 first.
 1. Ubuntu 20.04
 2. ROS noetic
 3. Arduino IDE
+4. Node-RED (Node-RED install tutorial: https://www.arubacloud.com/tutorial/how-to-install-node-red-on-ubuntu-20-04.aspx)
 
 #### Hardware:
 
@@ -159,6 +160,27 @@ step 4: go to src in your catkin_ws with terminal and run this command in termin
 step 5: go back to catkin_ws with terminal and run this command to make package
 
          catkin_make
+
+step 6: upload code in T-rex.ino to Arduino UNO R4 WIFI
+
+step 7: upload code in pixy_ros.ino to Arduino Uno
+
+step 8: go in to rosserial_arduino package in rosserial that you just clone from step above and go in to nodes folder and edit rospy.init_node
+
+         rospy.init_node("serial_node") --> rospy.init_node("serial_node", anonymous=True)
+
+step 9: use this command to start ros master
+
+         roscore
+
+step 10: start both rosserial for both arduino
+
+         rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM0 _baud:=57600
+         rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM1 _baud:=57600
+
+step 11: launch hormones nodes with this command
+
+         roslaunch t-rex hormone.launch
 
 ## Group member
 
