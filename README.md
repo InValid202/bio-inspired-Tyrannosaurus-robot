@@ -123,28 +123,6 @@ the constant 𝑘 first.
 3. Arduino IDE
 4. Node-RED (Node-RED install tutorial: https://www.arubacloud.com/tutorial/how-to-install-node-red-on-ubuntu-20-04.aspx)
 
-#### Hardware:
-
-1. Arduino Uno R4 WiFi
-
-2. Arduino Uno R3 
-
-3. Feetech SCS SERVO CONTROLLER
-
-4. Jetson nano
-
-5. Servo scs15
-
-6. pixy2.1
-   
-7. ZX-02F Light sensor
-
-8. PowerBank 5 V 2A
-
-9. LiPO Battery 3000mAh
-
-10. Rocker switch ON-OFF
-
 step 1: go to src in your catkin_ws with terminal and run this command in terminal
 
          git clone https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot.git
@@ -189,6 +167,34 @@ step 13: start both rosserial for both arduino
 step 14: launch hormones nodes with this command
 
          roslaunch t-rex hormone.launch
+
+#### Hardware:
+
+1. Arduino Uno R4 WiFi
+
+2. Arduino Uno R3 
+
+3. Feetech SCS SERVO CONTROLLER
+
+4. Jetson nano
+
+5. Servo scs15
+
+6. pixy2.1
+   
+7. ZX-02F Light sensor
+
+8. PowerBank 5 V 2A
+
+9. LiPO Battery 3000mAh
+
+10. Rocker switch ON-OFF
+
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit1.jpg" width="800" height="400" />
+
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit2.jpg" width="800" height="400" />
+
+<img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/circuit3.jpg" width="800" height="400" />
 
 ## Group member
 
