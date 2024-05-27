@@ -29,6 +29,8 @@ Bird's eye view
 
 spreadsheets for represent CPG and VRNs: [https://docs.google.com/spreadsheets/d/1AZzXm8qZo_j3j6RvV-UtCaSccyqd9fPiu6YYuq5pqpM/edit#gid=0](https://docs.google.com/spreadsheets/d/1AZzXm8qZo_j3j6RvV-UtCaSccyqd9fPiu6YYuq5pqpM/edit?usp=sharing)
 
+as you can see in the spreadsheets you will see a output from both VRNs will always shift a little bit early than original output of SO2 so i assign each VRNs output for each side to the front motor that has responsibility to lift up a leg and assign back motor with output from CPG, this config will generate a patern of walking by lift up a leg with front motor and follow by stretch leg back with back motor. and other good thing about using VRNs that i can adjust input to modify amplitude of VRNs output. so, i can make my robot turn left and turn right. for example, if i want to turn left i can lower my input1 to make O8 amplitude get lower and will result in lower lifting range but right side still has the same lifting range as before, my robot will start to turn left by it own. 
+
 ### Hormone
 
 <img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/hormone_concept.png" width="800" height="400" />
@@ -38,6 +40,8 @@ Example spreadsheets for represent artificial hormones: https://docs.google.com/
 addition paper: [FIBO205_240514_210108.pdf](https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/files/15449666/FIBO205_240514_210108.pdf)
 
 ### System diagram
+
+core concept of this system diagram was to use a Arduino UNO R4 handle all low level control such as drive motor or maybe control a buzzer follow by message from ROS node, and use other ros node handle all high level control such as hormone system calculation and CPG with VRNs
 
 <img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/idea%20system%20overview.jpg" width="800" height="400" />
 
