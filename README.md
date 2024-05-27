@@ -112,14 +112,14 @@ the constant 𝑘 first.
 
 ## Group member
 
-6452500368 Tumpoom Kanta-in
+Tumpoom Kanta-in 6452500368 
 
-6452500171 Natthachai piyatarathibeth 
+Natthachai piyatarathibeth 6452500171 
 
-6452500333 Paradon chaiyasat
+Paradon chaiyasat 6452500333 
 
-6452500406 Terdsak Kanjanawerod
+Terdsak Kanjanawerod 6452500406 
 
-6452500414 Precha Chuwong
+Precha Chuwong 6452500414 
 
-6452500091 Mr.Panchapol Supankhan
+Panchapol Supankhan 6452500091 
