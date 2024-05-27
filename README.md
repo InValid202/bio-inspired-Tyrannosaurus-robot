@@ -27,7 +27,7 @@ Bird's eye view
 
 <img src="https://github.com/InValid202/bio-inspired-Tyrannosaurus-robot/blob/main/source%20image/so2.jpg" width="800" height="400" />
 
-Excel for represent CPG and VRNs: [https://docs.google.com/spreadsheets/d/1AZzXm8qZo_j3j6RvV-UtCaSccyqd9fPiu6YYuq5pqpM/edit#gid=0](https://docs.google.com/spreadsheets/d/1AZzXm8qZo_j3j6RvV-UtCaSccyqd9fPiu6YYuq5pqpM/edit?usp=sharing)
+spreadsheets for represent CPG and VRNs: [https://docs.google.com/spreadsheets/d/1AZzXm8qZo_j3j6RvV-UtCaSccyqd9fPiu6YYuq5pqpM/edit#gid=0](https://docs.google.com/spreadsheets/d/1AZzXm8qZo_j3j6RvV-UtCaSccyqd9fPiu6YYuq5pqpM/edit?usp=sharing)
 
 ### System diagram
 
